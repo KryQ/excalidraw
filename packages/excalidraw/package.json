@@ -1,5 +1,5 @@
 {
-  "name": "@excalidraw/excalidraw",
+  "name": "@kryq/excalidraw",
   "version": "0.17.1",
   "main": "./dist/prod/index.js",
   "type": "module",
@@ -23,7 +23,7 @@
     "access": "public"
   },
   "description": "Excalidraw as a React component",
-  "repository": "https://github.com/excalidraw/excalidraw",
+  "repository": "https://github.com/kryq/excalidraw",
   "license": "MIT",
   "keywords": [
     "excalidraw",

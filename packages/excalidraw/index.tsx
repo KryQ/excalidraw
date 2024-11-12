@@ -8,7 +8,11 @@ import "./css/app.scss";
 import "./css/styles.scss";
 import "./fonts/fonts.css";
 
-import { AppProps, ExcalidrawProps, ToolbarDropdownCustomItem } from "./types";
+import type {
+  AppProps,
+  ExcalidrawProps,
+  ToolbarDropdownCustomItem,
+} from "./types";
 import { defaultLang, t } from "./i18n";
 import {
   DEFAULT_UI_OPTIONS,

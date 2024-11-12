@@ -1,4 +1,4 @@
-import { FC, useState } from "react";
+import { type FC, useState } from "react";
 import type { ActionManager } from "../actions/manager";
 import type {
   ExcalidrawElement,
@@ -17,7 +17,7 @@ import {
   hasStrokeWidth,
 } from "../scene";
 import { SHAPES } from "../shapes";
-import {
+import type {
   AppClassProperties,
   AppProps,
   ToolbarDropdownCustomItem,
@@ -432,7 +432,9 @@ const ToolbarDropdownItem: FC<{
           }
 
           const shape = SHAPES.find(({ value }) => value === dropdownTool.tool);
-          if (!shape) return null;
+          if (!shape) {
+            return null;
+          }
 
           const isSelected = activeTool.type === dropdownTool.tool;
 

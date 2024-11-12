@@ -36,7 +36,7 @@ import type { isOverScrollBars } from "./scene/scrollbars";
 import type { MaybeTransformHandleType } from "./element/transformHandles";
 import type Library from "./data/library";
 import type { FileSystemHandle } from "./data/filesystem";
-import {
+import type {
   IMAGE_MIME_TYPES,
   MIME_TYPES,
   ToolbarElementTypeEnum,

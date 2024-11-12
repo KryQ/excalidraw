@@ -2,7 +2,7 @@ import Pool from "es6-promise-pool";
 import { average } from "../math";
 import { COLOR_PALETTE } from "./colors";
 import {
-  EVENT,
+  type EVENT,
   isToolbarElementDropdown,
   isToolbarElementTool,
 } from "./constants";
@@ -14,7 +14,7 @@ import {
   WINDOWS_EMOJI_FALLBACK_FONT,
 } from "./constants";
 import type { FontFamilyValues, FontString } from "./element/types";
-import {
+import type {
   ActiveTool,
   AppState,
   ToolbarDropdownCustomItem,

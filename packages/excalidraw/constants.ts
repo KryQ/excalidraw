@@ -1,5 +1,5 @@
 import cssVariables from "./css/variables.module.scss";
-import {
+import type {
   AppProps,
   AppState,
   ToolbarElement,

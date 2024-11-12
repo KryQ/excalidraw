@@ -48,7 +48,7 @@ import type {
 } from "./element/types";
 import { KEYS } from "./keys";
 import { ShapeCache } from "./scene/ShapeCache";
-import { NormalizedZoomValue, Zoom } from "./types";
+import type { NormalizedZoomValue, Zoom } from "./types";
 import { invariant } from "./utils";
 
 export const SHAPES = [
